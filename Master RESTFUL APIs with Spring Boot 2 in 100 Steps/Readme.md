@@ -1,3 +1,6 @@
+https://github.com/stacksimplify/springboot-buildingblocks
+https://cotiviti.udemy.com/course/master-restful-apis-with-spring-boot/learn/lecture/15844234#overview
+
 ### Step 1. Step-01: Course Introduction.md
 ### Step 2. Step-02: Introduction to RESTful API.md
 ### Step 3. Step-03: Development Environment Setup.md
