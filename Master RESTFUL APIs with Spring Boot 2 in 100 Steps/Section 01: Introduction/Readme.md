@@ -55,25 +55,14 @@ https://github.com/stacksimplify/springboot-buildingblocks
     -   REST **Client applications** can use **GET/POST/PUT/DELETE..** methods to invoke Restful web services,
     -   **LightWeight** and doesn't follow any standards unlike SOAP web services.
 -   SOAP vs REST
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | Display the help window.|
-| Close     | Closes a window     |
-
-
-
 
 |SOAP|REST|
 |----|----|
 |SOAP is a **protocol**| REST is an architectural style|
-|SOAP server and Client applications are **tighly coupled and blind with the WSDL contract**| There is **no contract** in REST web services and **client application consuming REST API.|
+|SOAP server and Client applications are **tightly coupled and blind with the WSDL contract**| There is **no contract** in REST web services and **client application consuming REST API.|
+|Learning curve is **little complex** for SOAP web services| Learning curve is **easy** for REST when compared to SOAP.|
+|Rigid **type checking**, binds to a contract.| Human **readable** results|
+|SOAP works with **XML** only|REST web services request and response types can be **XML,JSON, text** etc..|
 
-
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
-
--   
   
 ### Step 3. Step-03: Development Environment Setup.md
