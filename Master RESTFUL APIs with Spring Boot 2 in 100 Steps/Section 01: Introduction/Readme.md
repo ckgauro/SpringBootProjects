@@ -66,3 +66,15 @@ https://github.com/stacksimplify/springboot-buildingblocks
 
   
 ### Step 3. Step-03: Development Environment Setup.md
+
+-   Download STS from **spring.io/tools**
+-   Open STS and click on Window>Perspective>Open perspective>Other
+-   Now open **Git perspective**. Now It will open Git perspective.
+ 
+-   Click on **Clone perspective** and paste following values
+    - URI: "https://github.com/stacksimplify/springboot-buildingblocks"
+    - Host : github.com
+    -   Repository path: [give you computer location where you want to store]
+    -   User: [git user]
+    -   Password: [Git password]
+-   Click on **Next**. then click on **Finish**
