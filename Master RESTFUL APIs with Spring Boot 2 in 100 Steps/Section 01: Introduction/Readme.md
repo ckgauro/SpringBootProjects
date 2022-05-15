@@ -49,6 +49,8 @@ https://github.com/stacksimplify/springboot-buildingblocks
 
  
 ### Step 2. Step-02: Introduction to RESTful API.md
-
+-   Rest Definition
+-   SOAP vs REST
+-   
   
 ### Step 3. Step-03: Development Environment Setup.md
