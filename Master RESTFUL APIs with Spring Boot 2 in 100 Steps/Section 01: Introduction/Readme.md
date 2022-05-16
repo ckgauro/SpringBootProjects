@@ -71,10 +71,13 @@ https://github.com/stacksimplify/springboot-buildingblocks
 -   Open STS and click on Window>Perspective>Open perspective>Other
 -   Now open **Git perspective**. Now It will open Git perspective.
  
--   Click on **Clone perspective** and paste following values
+-   Click on **Clone perspective** and dialog box appear. paste following values
     - URI: "https://github.com/stacksimplify/springboot-buildingblocks"
     - Host : github.com
     -   Repository path: [give you computer location where you want to store]
     -   User: [git user]
     -   Password: [Git password]
--   Click on **Next**. then click on **Finish**
+-   Click on **Next**. 
+    -   Specify Directory path:
+        e.g. /Users/ckgauro/Tutorial/github/SpringBootProjects/Master RESTFUL APIs with Spring Boot 2 in 100 Steps/CloneRepository
+-   then click on **Finish**
