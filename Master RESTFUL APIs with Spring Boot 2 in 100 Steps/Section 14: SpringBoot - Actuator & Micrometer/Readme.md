@@ -201,7 +201,7 @@ two, three and then four.
 
 What we discuss are just not all the steps we are going to implement step by step now.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -417,7 +417,7 @@ So now we'll move on to the next step with the day mix.
 
 So from Max perspective, we'll discuss in detail in our next lecture.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

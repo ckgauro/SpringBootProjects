@@ -123,7 +123,7 @@ So these are the five steps which we are going to implement as part of this exce
 
 And this is the type of response status quo to section.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -831,7 +831,7 @@ We'll do everything from side with layer instead of coming at the controller lay
 
 the service layer itself will implement the response status exception.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1539,7 +1539,7 @@ So every incremental mode we are doing it.
 
 So this will help you in checking out and then testing in an incremental manner.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

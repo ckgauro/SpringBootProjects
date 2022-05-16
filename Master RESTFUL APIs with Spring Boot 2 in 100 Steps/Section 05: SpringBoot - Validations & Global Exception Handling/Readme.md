@@ -525,7 +525,7 @@ And same is also created in the remote branch too.
 
 So this completes the creation of GitHub step.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1371,7 +1371,7 @@ Our customers are just coming out expecting the global exception handler when we
 
 exception handler.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1571,7 +1571,7 @@ Not a lot.
 
 OK, so this completes the implementation of his request method not supported exception.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -2301,7 +2301,7 @@ So this completes the constraint, violation, exception, implementation.
 
 So the next lecture, we're going to focus on a list controller and things like this O controller advice.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -2529,7 +2529,7 @@ So this completes the list controller advice implementation tool.
 
 OK, so we have successfully completed a lot of things from exception handling perspective.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -2587,7 +2587,7 @@ So the same self-locking will implement both self-locking and build relationship
 
 and then get the complete clarity on the relationship linking to.
 
-OK, so I'll see you in the next lecture.
+
 
 Bye bye.
 

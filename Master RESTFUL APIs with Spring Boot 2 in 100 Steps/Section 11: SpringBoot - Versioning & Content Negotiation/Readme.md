@@ -153,7 +153,7 @@ OK, so we have built seven steps to implement each new order.
 
 So we will do that in our upcoming lectures.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -533,7 +533,7 @@ And in the data, literally, we need to create user data even and then user data 
 
 So we have completed these things in the next lecture will move on with implementing Urara versioning.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -835,7 +835,7 @@ And we have used the model Mappa for transforming our user object to user data.
 
 So in the next lecture we will focus on implementing the.
 
-But chinning using request parameters, so I'll see you in the next lecture.
+But chinning using request parameters, 
 
 Until then, bye bye.
 
@@ -1065,7 +1065,7 @@ So this completes our request parameter rationing.
 
 So in the next lecture, we will focus on custom header versioning.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1245,7 +1245,7 @@ hyphen version.
 
 That's all we have done.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1899,7 +1899,7 @@ So this completes our content negotiation section.
 
 So in next section, we'll come up with a different topic.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

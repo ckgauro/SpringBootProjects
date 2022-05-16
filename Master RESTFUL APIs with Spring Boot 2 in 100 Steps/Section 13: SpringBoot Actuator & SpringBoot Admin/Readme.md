@@ -159,7 +159,7 @@ So with that, again, all endpoints will be public and we will be able to use the
 
 Well, it is not going to be that way, but currently for our exploration, we are going to do that.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -484,7 +484,7 @@ Now, in the next lecture, we will focus on pointing out Springbroot client appli
 
 admin server.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -672,7 +672,7 @@ So in the next lecture we're going to focus on testing all the things, whatever 
 
 on the admin UI and then see all those things.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1291,7 +1291,7 @@ two, three and then four.
 
 What we discuss are just not all the steps we are going to implement step by step now.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

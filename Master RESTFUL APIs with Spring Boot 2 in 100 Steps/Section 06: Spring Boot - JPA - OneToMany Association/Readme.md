@@ -49,7 +49,7 @@ So the same self-locking will implement both self-locking and build relationship
 
 and then get the complete clarity on the relationship linking to.
 
-OK, so I'll see you in the next lecture.
+
 
 Bye bye.
 
@@ -795,7 +795,7 @@ So in next lecture, we are going to create a method which only store orders for 
 
 OK, so we will see how we are going to implement that.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

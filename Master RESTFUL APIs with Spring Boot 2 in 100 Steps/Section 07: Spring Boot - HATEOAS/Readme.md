@@ -395,7 +395,7 @@ So it started successfully, we should be good now in the next lecture will go on
 
 No, we have added the dependency.
 
-So I'll see you in the next lecture.
+
 
 Bye bye.
 
@@ -541,7 +541,7 @@ So this completes our resource support extension for both our user and then othe
 
 OK, so in the next lecture, we'll focus on the other steps of haters.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1357,7 +1357,7 @@ OK, so in the next lecture will focus on getting all users and then we will impl
 
 for each user and also implement a relationship link for our basketball orders.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1915,7 +1915,7 @@ So this completes the complete implementation with the different different optio
 
 from information perspective.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1956,7 +1956,7 @@ Good, so this completes our completed section.
 
 So in the next section, we'll discuss about the internationalization.
 
-So I'll see you in the next lecture.
+
 
 Bye bye.
 

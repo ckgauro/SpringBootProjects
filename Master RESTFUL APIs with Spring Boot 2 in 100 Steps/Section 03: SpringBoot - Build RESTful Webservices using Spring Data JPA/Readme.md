@@ -419,7 +419,7 @@ on implementing the TTP status codes, response codes and respect to exception, h
 
 all those things in the next section.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -540,7 +540,7 @@ The same way spring not is to not console able to do so, these two properties we
 
 application, not properties.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -654,7 +654,7 @@ So this completes the entity introduction.
 
 And then in the next lecture we are going to focus on understanding the table.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1318,7 +1318,7 @@ You are local or state has to cancel and the database BCU are the best DB.
 
 So this this concludes our answer session about the H2 database.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1678,7 +1678,7 @@ So in the next lecture, what we are going to do is we are going to test it using
 
 So we are going to all create a request in a lot of Posman clients and then test these things.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1802,7 +1802,7 @@ We have user multiple elements to implement a lot of things in the upcoming lect
 
 So now we have successfully tested the button users using the postman.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -2208,7 +2208,7 @@ So in the next lecture we will implement douget user by idee method in both serv
 
 and then based it.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -2500,7 +2500,7 @@ So I will see you in the next lecture.
 
 In the next lecture, we are going to focus on our bit user by Demetrious input mapping.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -2972,7 +2972,7 @@ So that's about the user by a limited implementation.
 
 And then in the next lecture we'll work on that user by user name.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -3280,7 +3280,7 @@ is quite user by I.T. So that's the important catch we need to remember here, so
 
 completed the gate user by user name.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

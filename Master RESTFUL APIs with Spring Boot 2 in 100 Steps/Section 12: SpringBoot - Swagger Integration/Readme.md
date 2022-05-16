@@ -231,7 +231,7 @@ So once that is completed, will move on and then come out and push the code wher
 
 and then implement all these things step by step.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -537,7 +537,7 @@ select us.
 
 Let's see how we are going to do that in our next lecture.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -751,7 +751,7 @@ And in addition, will take our swagga, Jason, and then verify in our Ed and then
 
 OK, so we'll see all the details in our next step.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1285,7 +1285,7 @@ OK, so in the next step will focus on swagga code annotations related to a pay m
 
 property.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1503,7 +1503,7 @@ So in the next lecture will focus on implementing the annotations Swagga annotat
 
 annotations for our controller classes.
 
-OK, so I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

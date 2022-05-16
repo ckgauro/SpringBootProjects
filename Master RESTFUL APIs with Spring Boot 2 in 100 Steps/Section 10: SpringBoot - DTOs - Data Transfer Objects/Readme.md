@@ -297,7 +297,7 @@ the beam.
 
 So in the next lecture will focus on other steps.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1087,7 +1087,7 @@ user we have the name that email so that we can use the mapping annotation and e
 
 annotation so that.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1763,7 +1763,7 @@ OK, so data transfer objects section.
 
 OK, so in the next section we look on a different topic.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 

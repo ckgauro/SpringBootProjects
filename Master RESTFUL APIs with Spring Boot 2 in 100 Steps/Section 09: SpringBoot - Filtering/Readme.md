@@ -907,7 +907,7 @@ I need to send from the values here and then you should get the data.
 
 So they'll do that in our next lecture.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
@@ -1319,7 +1319,7 @@ So let's go ahead and implement this.
 
 No, no idea.
 
-So I'll see you in the next lecture.
+
 
 Until then, bye bye.
 
