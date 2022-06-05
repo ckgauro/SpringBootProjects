@@ -169,7 +169,7 @@ a complete model mapper.
 
 So I'll see you in the next lecture, basically going to the idea and then implementing it.
 
-So until then, bye bye.
+So .
 
 Thank you.
 
@@ -299,7 +299,7 @@ So in the next lecture will focus on other steps.
 
 
 
-Until then, bye bye.
+.
 
 
 ### Step 79. Step-03: Implement Methods using ModelMapper.md
@@ -707,7 +707,7 @@ So we have completed our commitment and then push step, so I'll see you in the n
 
 next section with our map step implementation for the date was so.
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -889,7 +889,7 @@ So this is what we're going to implement for the entire.
 
 Mousetrap implementation, so let's go ahead and implement that now, so I'll see you later.
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1089,7 +1089,7 @@ annotation so that.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1765,7 +1765,7 @@ OK, so in the next section we look on a different topic.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 

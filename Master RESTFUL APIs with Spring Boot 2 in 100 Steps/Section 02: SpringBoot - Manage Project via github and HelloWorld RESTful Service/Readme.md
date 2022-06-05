@@ -244,6 +244,25 @@ Total 15 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To https://github.com/ckgauro/springboot-buildingblocks.git
    be871a9..73f6416  master -> master
-$ 
+$ git switch 02-Hello-world
+Switched to branch '02-Hello-world'
+$ git push
+fatal: The current branch 02-Hello-world has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin 02-Hello-world
+
+$  git push --set-upstream origin 02-Hello-world
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for '02-Hello-world' on GitHub by visiting:
+remote:      https://github.com/ckgauro/springboot-buildingblocks/pull/new/02-Hello-world
+remote: 
+To https://github.com/ckgauro/springboot-buildingblocks.git
+ * [new branch]      02-Hello-world -> 02-Hello-world
+Branch '02-Hello-world' set up to track remote branch '02-Hello-world' from 'origin'.
+$ git push
+Everything up-to-date
+
 
 ```

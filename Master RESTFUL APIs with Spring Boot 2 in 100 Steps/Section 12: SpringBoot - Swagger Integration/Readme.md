@@ -233,7 +233,7 @@ and then implement all these things step by step.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -539,7 +539,7 @@ Let's see how we are going to do that in our next lecture.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -753,7 +753,7 @@ OK, so we'll see all the details in our next step.
 
 
 
-Until then, bye bye.
+.
 
 Thanks.
 
@@ -1287,7 +1287,7 @@ property.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1505,7 +1505,7 @@ annotations for our controller classes.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1802,7 +1802,7 @@ All those things we have learned now in the last three to four sections, we are 
 
 real I.D. so that we are to get the command and I.D. So I'll see you in the next section.
 
-Until then, bye bye.
+.
 
 Thank you.
 

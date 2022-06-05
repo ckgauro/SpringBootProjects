@@ -51,7 +51,7 @@ Finally, we're also going to look into the metrics endpoint.
 
 So I'll see you in the next lecture, the implementation.
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -161,7 +161,7 @@ Well, it is not going to be that way, but currently for our exploration, we are 
 
 
 
-Until then, bye bye.
+.
 
 
 ### Step 102. Step-03: SpringBoot Admin Introduction.md
@@ -335,7 +335,7 @@ And that is trying to the building blocks application to this admin server and t
 
 OK, so I'll see you in the next lecture by implementing the best project.
 
-OK, so until then, bye bye.
+OK, so .
 
 Thank you.
 
@@ -486,7 +486,7 @@ admin server.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -674,7 +674,7 @@ on the admin UI and then see all those things.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1293,7 +1293,7 @@ What we discuss are just not all the steps we are going to implement step by ste
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 

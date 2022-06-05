@@ -909,7 +909,7 @@ So they'll do that in our next lecture.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1321,7 +1321,7 @@ No, no idea.
 
 
 
-Until then, bye bye.
+.
 
 
 ### Step 76. Step-06: Implement Filtering using @JsonView.md
@@ -1768,7 +1768,7 @@ So this complex are computer filtering section in the next section will work on 
 
 So I'll see you in the next lecture and next section.
 
-Until then, bye bye.
+.
 
 Thank you.
 

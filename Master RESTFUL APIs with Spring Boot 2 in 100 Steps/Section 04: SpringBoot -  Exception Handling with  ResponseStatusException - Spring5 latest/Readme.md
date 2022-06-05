@@ -125,7 +125,7 @@ And this is the type of response status quo to section.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -833,7 +833,7 @@ the service layer itself will implement the response status exception.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1541,7 +1541,7 @@ So this will help you in checking out and then testing in an incremental manner.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 

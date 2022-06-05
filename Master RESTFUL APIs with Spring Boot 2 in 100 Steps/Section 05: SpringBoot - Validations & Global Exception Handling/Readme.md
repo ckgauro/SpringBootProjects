@@ -527,7 +527,7 @@ So this completes the creation of GitHub step.
 
 
 
-Until then, bye bye.
+.
 
 Just to save time or instead of having that as a repetitive step.
 
@@ -1373,7 +1373,7 @@ exception handler.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1573,7 +1573,7 @@ OK, so this completes the implementation of his request method not supported exc
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -2303,7 +2303,7 @@ So the next lecture, we're going to focus on a list controller and things like t
 
 
 
-Until then, bye bye.
+.
 
 
 ### Step 47. Step-06: Implement Global Exception Handling using @RestControllerAdvice.md
@@ -2531,7 +2531,7 @@ OK, so we have successfully completed a lot of things from exception handling pe
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 

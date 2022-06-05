@@ -797,7 +797,7 @@ OK, so we will see how we are going to implement that.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1816,7 +1816,7 @@ in the GitHub people in the remote Reppas remote branches and then will close th
 
 So I'll see you in the next lecture, starting with our step zero zero.
 
-Until then, bye bye.
+.
 
 Thank you.
 

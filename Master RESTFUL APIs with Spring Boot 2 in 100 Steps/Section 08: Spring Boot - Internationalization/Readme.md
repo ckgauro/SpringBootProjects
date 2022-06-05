@@ -533,7 +533,7 @@ Local is doing the job for us.
 
 OK, I'll see you in the next lecture.
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -576,7 +576,7 @@ So this confirms that we're good with our whitcome it good.
 
 So I'll see you in the next section.
 
-Until then, bye bye.
+.
 
 Thank you.
 

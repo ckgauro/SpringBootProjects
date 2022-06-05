@@ -155,7 +155,7 @@ So we will do that in our upcoming lectures.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -535,7 +535,7 @@ So we have completed these things in the next lecture will move on with implemen
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -837,7 +837,7 @@ So in the next lecture we will focus on implementing the.
 
 But chinning using request parameters, 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1067,7 +1067,7 @@ So in the next lecture, we will focus on custom header versioning.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1247,7 +1247,7 @@ That's all we have done.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1499,7 +1499,7 @@ we really don't need.
 
 So I'll see you in the next section with the content negotiation.
 
-So until then, bye bye.
+So .
 
 Thank you.
 
@@ -1901,7 +1901,7 @@ So in next section, we'll come up with a different topic.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -2020,7 +2020,7 @@ OK, so.
 
 I'll see you in the next lecture.
 
-Until then, bye bye.
+.
 
 Thank you.
 

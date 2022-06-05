@@ -203,7 +203,7 @@ What we discuss are just not all the steps we are going to implement step by ste
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -419,7 +419,7 @@ So from Max perspective, we'll discuss in detail in our next lecture.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 

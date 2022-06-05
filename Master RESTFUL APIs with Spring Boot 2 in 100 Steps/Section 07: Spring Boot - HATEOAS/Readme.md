@@ -343,7 +343,7 @@ in the GitHub people in the remote Reppas remote branches and then will close th
 
 So I'll see you in the next lecture, starting with our step zero zero.
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -543,7 +543,7 @@ OK, so in the next lecture, we'll focus on the other steps of haters.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1359,7 +1359,7 @@ for each user and also implement a relationship link for our basketball orders.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
@@ -1917,7 +1917,7 @@ from information perspective.
 
 
 
-Until then, bye bye.
+.
 
 Thank you.
 
