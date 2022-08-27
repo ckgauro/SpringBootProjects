@@ -1,5 +1,5 @@
  
-### Step 14. Step-00: Introduction to Build RESTful APIs with JPA .md
+### Step 14. Step-00: Introduction to Build RESTful APIs with JPA.md
 Step 01: **Usecase** Introduction
 Step-02: Verify pom.xml for all Dependencies
 Step-03: Update application.properties required for JPA based RESTful Services
@@ -18,7 +18,7 @@ Step-13: Implement getUserByUsername RESTful Service - @GetMapping
 Step-14: GIT Commit, Push, Merge to Master and Push 
 
 
-### Step 15. Step-01: Usecase Introduction .md
+### Step 15. Step-01: Usecase Introduction.md
 Step-01: Usecase Introduction - User Management Service
    - Create User  - POST - /users
    - Get All Users - GET - /users
@@ -26,7 +26,7 @@ Step-01: Usecase Introduction - User Management Service
    - Update User By Id - PUT - /users/{id}
    - Delete User By Id - DELETE - /users/{id}
    - Get User By username - GET - /users/byusername/{username}   
-### Step 16. Step-02: Verify pom.xml for all Dependencies .md
+### Step 16. Step-02: Verify pom.xml for all Dependencies.md
 
 Step-02: Verify pom.xml for all Dependencies
    - Mandatory
@@ -38,7 +38,7 @@ Step-02: Verify pom.xml for all Dependencies
    - Create GIT Branch
       - Create GIT branch name "03-JPA-UsermgmtService-Base"    
 
-### Step 17. Step-03: Update application.properties required for JPA based RESTful Services .md  --Done
+### Step 17. Step-03: Update application.properties required for JPA based RESTful Services.md  --Done
 
 Create GIT branch name "03-JPA-UsermgmtService-Base"  
 
@@ -48,7 +48,7 @@ spring.jpa.show-sql=true
 spring.h2.console.enabled=true
 ```
 
-### Step 18. Step-04-01: Create User Entity - Understand @Entity Annotation .md -- Done
+### Step 18. Step-04-01: Create User Entity - Understand @Entity Annotation.md -- Done
 
 Step-04: Entity
     - Fields or Variables (id, username, firstname, lastname, email, role, ssn)
@@ -63,15 +63,15 @@ Step-04: Entity
 
 https://github.com/stacksimplify/springboot-buildingblocks/blob/03-JPA-UserMgmtService-Base/src/main/java/com/stacksimplify/restservices/entities/User.java
 
-### Step 19. Step-04-02: Create User Entity - Understand @Table Annotation .md
+### Step 19. Step-04-02: Create User Entity - Understand @Table Annotation.md
 
 
 https://github.com/stacksimplify/springboot-buildingblocks/blob/03-JPA-UserMgmtService-Base/src/main/java/com/stacksimplify/restservices/entities/User.java
     
-### Step 20. Step-04-03: Create User Entity - Define Variables, Getters & Setters .md
+### Step 20. Step-04-03: Create User Entity - Define Variables, Getters & Setters.md
 
 https://github.com/stacksimplify/springboot-buildingblocks/blob/03-JPA-UserMgmtService-Base/src/main/java/com/stacksimplify/restservices/entities/User.java
-### Step 21. Step-05: Understand and Implement changes related to H2 Database .md
+### Step 21. Step-05: Understand and Implement changes related to H2 Database.md
       
 Step-05: H2 Database
 - In Memory Database (data will be lost when we restart JVM or when JVM reloads)
@@ -91,7 +91,7 @@ insert into user values(103, 'dmark@stacksimplify.com', 'David', 'Mark', 'admin'
 https://github.com/stacksimplify/springboot-buildingblocks/blob/03-JPA-UserMgmtService-Base/src/main/resources/data.sql
 
 localhost:8080/h2-console
-### Step 22. Step-06: Create User Repository - @Repository .md
+### Step 22. Step-06: Create User Repository - @Repository.md
      
 
 
@@ -103,7 +103,7 @@ Step-06: Repository
 
 https://github.com/stacksimplify/springboot-buildingblocks/blob/03-JPA-UserMgmtService-Base/src/main/java/com/stacksimplify/restservices/repositories/UserRepository.java
 
-### Step 23. Step-07: Implement getAllUsers RESTful Service - @Service, @RestController .md
+### Step 23. Step-07: Implement getAllUsers RESTful Service - @Service, @RestController.md
    
 Step-07: Implement getAllUsers Method 
     - Service: 
@@ -117,7 +117,7 @@ Step-07: Implement getAllUsers Method
         - @Autowired (Autowire UserService)
         - Create @GetMapping for getAllUsersMethod   
 
-### Step 24. Step-08: Test getAllUsers RESTful Service - Using REST Client POSTMAN .md
+### Step 24. Step-08: Test getAllUsers RESTful Service - Using REST Client POSTMAN.md
       
 Step-08: Test using REST Client - POSTMAN
     - Download & Install POSTMAN - https://www.getpostman.com/
@@ -130,7 +130,7 @@ Step-08: Test using REST Client - POSTMAN
 Test:
 -  localhost:8080/users/1    
 
-### Step 25. Step-09: Implement createUser RESTful Service - @PostMapping .md
+### Step 25. Step-09: Implement createUser RESTful Service - @PostMapping.md
      
 ----------------------------------------------------------------------------------------------
 Step-09: Implement createUser Method in Service & Controller Layers
@@ -161,7 +161,7 @@ Test using POSTMAN:
 
 -     
 
-### Step 26. Step-10: Implement getUserById RESTful Service - @GetMapping .md 
+### Step 26. Step-10: Implement getUserById RESTful Service - @GetMapping.md 
 ------------------------------------------------
 Step-10: Implement getUserById Method in Service and Controller Layers
     - Service Layer: 
@@ -182,7 +182,7 @@ Test using POSTMAN:
 -  Get : localhost:8080/users/1         
    
 -  GET: localhost:8080/users
-### Step 27. Step-11: Implement updateUserById RESTful service - @PutMapping .md
+### Step 27. Step-11: Implement updateUserById RESTful service - @PutMapping.md
 ----------------------------------------------------------------------------------------------    
 Step-11: Implement updateUserById Method in Service and Controller layers
     - Service Layer: 
@@ -212,7 +212,7 @@ Test using POSTMAN:
     "ssn": "ssn101"
    }
 -  GET: localhost:8080/users
-### Step 28. Step-12: Implement deleteUserById RESTful Service - @DeleteMapping .md
+### Step 28. Step-12: Implement deleteUserById RESTful Service - @DeleteMapping.md
   Step-12: Implement deleteUserById Method in Service and Controller Layers
     - Service Layer: 
         - Create deleteUserById Method
@@ -231,7 +231,7 @@ Test using POSTMAN:
 -  Delete : localhost:8080/users/1         
   
 -  GET: localhost:8080/users
-### Step 29. Step-13: Implement getUserByUsername RESTful Service - @GetMapping .md
+### Step 29. Step-13: Implement getUserByUsername RESTful Service - @GetMapping.md
 Step-13: Implement getUserByUsername Method in Repository, Service & Controller Layers
     - Repository Layer: 
         - Define "findByUsername" in UserRepository Interface
@@ -254,7 +254,7 @@ Test using POSTMAN:
 -  GET : http://localhost:8080/users/byusername/kreddy       
    
 -  GET: localhost:8080/users 
-### Step 30. Step-14: GIT Commit, Push, Merge to Master and Push .md
+### Step 30. Step-14: GIT Commit, Push, Merge to Master and Push.md
 
 ----------------------------------------------------------------------------------------------
 Step-14: GIT Commit & Merge to Master & Push
