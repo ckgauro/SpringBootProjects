@@ -1,4 +1,3 @@
- 
 ### Step 31. Step-00: Introduction to Exception Handling using ResponseStatusException.md
 
 -   #### Exception Handling and Response Status Codes
@@ -20,6 +19,8 @@
         -   **Global Exception Handling**: This approach will not look like a global approach like **@ControllerAdvice**. Its difficult to enforce applicaiton-wide conventions.
     -   **Combine Approaches**
         - We can implement **@ControllerAdvice** globally and **ResponseStatueExceptions** locally as anbd when required.
+    -   **server.error.include-stacktrace=never** in **application.properties** to disable trace.
+    -   **org.springframework.web.util.UriComponentsBuilder**  The main advantages of **UriComponentsBuilder** are the flexibility of using URI template variables, and a possibility of injecting it directly into Spring Controller methods.
 
 #### Creating Steps
 -   Step-00: Create git branch - local & remote.md
@@ -61,7 +62,8 @@ Step-01: Implement "ResponseStatusException" for getUserById
         - Method: GET 
         - URI: http://localhost:8080/users/101
     - Remove Trace in Exception.
-        - When using DevTools, "server.error.include-stacktrace" will be set to always
+        - When using DevTools, "server.error.include-stacktrace" will be set to always 
+            server.error.include-stacktrace=never
         - change to never or on-trace-param
     - Verify the response again.      
         - Exception Message
@@ -84,7 +86,16 @@ Step-02: Implement "ResponseStatusException" for updateUserById
         - Verify the response
             - Exception Message
             - HTTP Status Code   
-
+```
+{
+    "timestamp": "2022-08-28T22:09:46.522+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "message": "User not found in user Repository",
+    "path": "/users/1012"
+}
+```            
+    
 ### Step 35. Step-03: Implement ResponseStatusException for deleteUserById RESTful Service.md
 Step-03: Implement "ResponseStatusException" for deleteUserById at Service Layer only
     - Service Layer:
@@ -97,6 +108,16 @@ Step-03: Implement "ResponseStatusException" for deleteUserById at Service Layer
         - Verify the response
             - Exception Message
             - HTTP Status Code  
+
+```
+{
+    "timestamp": "2022-08-28T22:17:12.311+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "User Not found in user Repository , provide the correct usedr id",
+    "path": "/users/1001"
+}
+```
 
 ### Step 36. Step-04: Implement ResponseStatusException for createUser RESTful Service.md
 Step-04: Implement "ResponseStatusException" for createUser 
@@ -113,10 +134,45 @@ Step-04: Implement "ResponseStatusException" for createUser
     - Test using Postman
         - Method: POST 
         - URI: http://localhost:8080/users
+        - choose **Body** option  then choose **raw** paste following code.
+        ```json        
+             {        
+        "username": "kreddy",
+        "firstname": "Kalyan",
+        "lastname": "Reddy",
+        "email": "kreddy@stacksimplify.com",
+        "role": "admin",
+        "ssn": "ssn101"
+            }
+        ```
         - Request Body: 
         - Verify the response
             - Exception Message
-            - HTTP Status Code      
+            - HTTP Status Code   
+        - Result   
+        
+        ```json
+            {
+        "timestamp": "2022-08-28T22:20:13.012+00:00",
+        "status": 400,
+        "error": "Bad Request",
+        "message": "User already exists in repository",
+        "path": "/users"
+        }
+        ```        
+
+        -   to Save Data
+        ```json
+         {        
+        "username": "Chandra",
+        "firstname": "Kalyan",
+        "lastname": "Reddy",
+        "email": "kreddy@stacksimplify.com",
+        "role": "admin",
+        "ssn": "ssn1045"
+        }
+        ```
+
 ### Step 37. Step-05: Implement HTTP Status code & Location Header for createUser Service.md
 Step-05: For createUser Method, implement  HTTP Status code 201 & Location Header path
 - HTTP Status Code 201 & Location Header with User URI path  
@@ -130,6 +186,31 @@ Step-05: For createUser Method, implement  HTTP Status code 201 & Location Heade
         - Verify the response
             - HTTP Status code
             - Location Header in Response Headers
+
+    - choose **Body** option  then choose **raw** paste following code.
+        ```json        
+              {        
+        "username": "Munna",
+        "firstname": "Kalyan",
+        "lastname": "Reddy",
+        "email": "kreddy@stacksimplify.com",
+        "role": "admin",
+        "ssn": "ssn10as45"
+            }
+        ```
+        - Request Body: 
+        - Verify the response
+            - Exception Message
+            - HTTP Status Code   
+        - Result   
+        
+        ```json
+           1
+        ```  
+        <p align="center">
+	        <img src="images/Sect4Img1.png" alt="Logo">
+        </p>
+                          
 
 ### Step 38. Step-06: GIT Commit, Push, Merge to Master and Push.md
 Step-06: GIT Commit, Push, Merge to Master & Push
