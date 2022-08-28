@@ -45,7 +45,6 @@ Step-00: Create new git branch in local git repo and remote github repo
         
 -   $git status
 
-
 ### Step 33. Step-01: Implement ResponseStatusException handling for getUserById.md
 
 ----------------------------------------------------------------------------------------
