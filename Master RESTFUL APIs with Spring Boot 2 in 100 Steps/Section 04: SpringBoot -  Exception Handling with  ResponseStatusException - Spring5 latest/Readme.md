@@ -60,7 +60,7 @@ Step-01: Implement "ResponseStatusException" for getUserById
         - In catch block, implement "ResponseStatusException".
     - Test using postman. 
         - Method: GET 
-        - URI: http://localhost:8080/users/1001
+        - URI: http://localhost:8080/users/101
     - Remove Trace in Exception.
         - When using DevTools, "server.error.include-stacktrace" will be set to always
         - change to never or on-trace-param
@@ -69,11 +69,68 @@ Step-01: Implement "ResponseStatusException" for getUserById
         - HTTP Status Code           
 
 
-### Step 34. Step-02: Implement ResponseStatusException for updateUserById RESTful Service.md
+### Step 34. Step-02: Implement ResponseStatusException for updateUserById RESTful Service.md  --Ongoing
+
+Step-02: Implement "ResponseStatusException" for updateUserById
+    - Service Layer:
+        - Update the updateUserById method with throws Exception
+        - Check for user and if not exists throw exception. 
+    - Controller Layer: 
+        - Update the updateUserById method with try catch block.
+        - In catch block, implement "ResponseStatusException".
+    - Test using postman. 
+        - Method: PUT 
+        - URI: http://localhost:8080/users/1001
+        - Request Body: 
+        - Verify the response
+            - Exception Message
+            - HTTP Status Code   
 
 ### Step 35. Step-03: Implement ResponseStatusException for deleteUserById RESTful Service.md
-### Step 36. Step-04: Implement ResponseStatusException for createUser RESTful Service.md
+Step-03: Implement "ResponseStatusException" for deleteUserById at Service Layer only
+    - Service Layer:
+        - Check for user and if not exists throw ResponseStatusException. 
+    - Controller Layer: 
+        - No changes
+    - Test using postman. 
+        - Method: DELETE 
+        - URI: http://localhost:8080/users/1001
+        - Verify the response
+            - Exception Message
+            - HTTP Status Code  
 
+### Step 36. Step-04: Implement ResponseStatusException for createUser RESTful Service.md
+Step-04: Implement "ResponseStatusException" for createUser 
+- Response Status Exception
+    - Exception Layer
+        - Create "UserExistsException" class
+    - Service Layer
+        - Update the createUser method with throws Exception
+        - Verify if userexists based on username (Username is unique constraint)
+        - If not null, throw exception.
+    - Controller Layer
+        - Update the createUser method with try catch block
+        - In catch block, implement "ResponseStatusException".
+    - Test using Postman
+        - Method: POST 
+        - URI: http://localhost:8080/users
+        - Request Body: 
+        - Verify the response
+            - Exception Message
+            - HTTP Status Code      
 ### Step 37. Step-05: Implement HTTP Status code & Location Header for createUser Service.md
+Step-05: For createUser Method, implement  HTTP Status code 201 & Location Header path
+- HTTP Status Code 201 & Location Header with User URI path  
+    - Controller Layer:
+        - Implement Service to return HTTP Status code 201
+        - Implement Service to return Location Header as user path 
+    - Test using Postman
+        - Method: POST 
+        - URI: http://localhost:8080/users
+        - Request Body: 
+        - Verify the response
+            - HTTP Status code
+            - Location Header in Response Headers
 
 ### Step 38. Step-06: GIT Commit, Push, Merge to Master and Push.md
+Step-06: GIT Commit, Push, Merge to Master & Push
