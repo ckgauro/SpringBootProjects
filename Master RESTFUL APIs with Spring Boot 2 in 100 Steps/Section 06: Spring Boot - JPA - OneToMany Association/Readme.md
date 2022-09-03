@@ -1,4 +1,16 @@
- 
+ JPA - @OneToMany & @ManyToOne
+ -  In JPA, one-to-many database association cab be represented either through a @ManyToOne or @OneToMany association or both. All depends on our requirement and need.
+ -  @ManyToOne annotation  allows us to map the Foreign key column in the child entity mapping so that child has an entity object reference to its parent entity. This is the most efficient way.
+
+ -  We can perform the associations in below listed 3 ways.
+    -   Unidirectional @OneToMany association
+    -   Bidirectional @OneToMany association
+    -   Unidirectional @ManyToOne with JPQl query
+
+-   We are going to use Bidirectional association in our implementation.    
+
+---------
+    
 ### Step 49. Step-00: Need for JPA OneToMany for HATEOAS.md
 -----------------------------------------------------------------------------
 -   Step-00: Usecase Introduction
