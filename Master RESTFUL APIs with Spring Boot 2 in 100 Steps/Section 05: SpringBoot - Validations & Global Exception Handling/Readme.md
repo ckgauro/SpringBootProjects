@@ -235,6 +235,10 @@ Step-00: Create new git branch in local git repo and remote github repo
     - Test using POSTMAN
         - Provide PATCH method for create user
         - Verify response code and body  
+        - URI: http://locahost:8080/users
+        - Verify Response
+            - Custom Error Response
+            - HTTP 400 Bad Request           
     -   JSON INput
     ```json
      {        
@@ -372,7 +376,7 @@ Step-00: Create new git branch in local git repo and remote github repo
 ### Step 48. Step-07: Switching between @ControllerAdvice and @RestControllerAdvice.md
 
 ---------------------------------------------------------------------------------------
-Step-07: Note about switching between @ControllerAdvice and @RestControllerAdvice
+Step-07: Note about switching between **@ControllerAdvice and @RestControllerAdvice**
 
 Step-08: GIT Commit, Push, Merge to Master and Push
 
