@@ -39,16 +39,16 @@
 
 ## Usecase Combination
 
--   @ControllerAdvice & ResponseEntityExceptionHandler class
+-   **@ControllerAdvice** & **ResponseEntityExceptionHandler** class
     -   MethodArguemntNotValidException
     -   HttpRequestMethodNotSupportException
--   @ContollerAdvice & @ExceptionHandler
-    -   For pre-defined exceptions like ConstraintViolationException
-    -   For custom exceptions like UserNameNotFoundException
+-   **@ContollerAdvice** & **@ExceptionHandler**
+    -   For pre-defined exceptions like **ConstraintViolationException**
+    -   For custom exceptions like **UserNameNotFoundException**
 
--   @RestControllerAdvice & @ExceptionHandler
-    -   For custom exceptions like UserNameNotFoundException
-    -   For pre-defined exceptions like "Exception.class" (Applicable to all exceptions)        
+-   **@RestControllerAdvice** & **@ExceptionHandler**
+    -   For custom exceptions like **UserNameNotFoundException**
+    -   For pre-defined exceptions like "**Exception.class**" (Applicable to all exceptions)        
 ### Step 40. Step-00: Introduction to Spring Boot - Validations & Global Exception Handling.md
 ---------------------------------------------------------------------------------------
 Step-00: Introduction
