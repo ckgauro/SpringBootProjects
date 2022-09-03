@@ -15,19 +15,19 @@
 
 ### Step 50. Step-00: Introduction to JPA OneToMany Association.md
 ### Step 51. Step-01: Create git branch for JPA OneToMany Association.md
-Step-01: Create GIT branch for JPA @OneToMany Association
-git branch -vva
-git status
-git checkout -b 06-SpringBoot-JPA-OneToMany
-git push --set-upstream origin 06-SpringBoot-JPA-OneToMany
-git branch -a
+-   Step-01: Create GIT branch for JPA @OneToMany Association
+    git branch -vva
+    git status
+    git checkout -b 06-SpringBoot-JPA-OneToMany
+    git push --set-upstream origin 06-SpringBoot-JPA-OneToMany
+    git branch -a
 
 -----------------------------------------------------------------------------
 
 ### Step 52. Step-02: Create Order Entity and @ManyToOne Association.md
 
 -----------------------------------------------------------------------------
-Step-02: Create Order entity and ManyToOne Mapping
+-   Step-02: Create Order entity and ManyToOne Mapping
     - Entity Layer
         - Create Order Entity
         - Annotate with @Table(name = "orders")
@@ -42,7 +42,7 @@ Step-02: Create Order entity and ManyToOne Mapping
 
 
 ### Step 53. Step-03: Update User entity with @OneToMany Association.md
-Step-03: Update User entity with @OneToMany association
+-   Step-03: Update User entity with @OneToMany association
     - Add orders variable
     - Add @OneToMany Mapping
     - Add MappedBy to user variable in Order Entity
@@ -73,7 +73,7 @@ insert into orders (orderid, orderdescription, user_user_id) values( 2006, 'orde
 
 ### Step 54. Step-04: Implement getAllOrders RESTful Service.md
 -----------------------------------------------------------------------------
-Step-04: Implement "getAllOrders" method in OrderController 
+-   Step-04: Implement "getAllOrders" method in OrderController 
     - Controller Layer: UserController
         - Add @RequestMapping at class level and add "/users" context at class level
         - Remove "/users" at method level for all User related methods. 
@@ -86,48 +86,308 @@ Step-04: Implement "getAllOrders" method in OrderController
     - Test using Postman
         - Test#1: getAllOrders
             - GET /users/101/orders
+            -   Result
+            ```json
+                    [
+            {
+                "orderId": 2001,
+                "orderDescription": "order11"
+            },
+            {
+                "orderId": 2002,
+                "orderDescription": "order12"
+            },
+            {
+                "orderId": 2003,
+                "orderDescription": "order13"
+            }
+        ]
+                
+            ```
         - Test#2: getAllUsers
-            - GET /users                           
+            - GET /users 
+            -   Result
+             ```json
+            {
+            "id": 101,
+            "username": "kreddy",
+            "firstname": "Kalyan",
+            "lastname": "Reddy",
+            "email": "kreddy@stacksimplify.com",
+            "role": "admin",
+            "ssn": "ssn101",
+            "orders": [
+                {
+                    "orderId": 2001,
+                    "orderDescription": "order11"
+                },
+                {
+                    "orderId": 2002,
+                    "orderDescription": "order12"
+                },
+                {
+                    "orderId": 2003,
+                    "orderDescription": "order13"
+                }
+            ]
+                },
+                {
+                    "id": 102,
+                    "username": "gwiser",
+                    "firstname": "Greg",
+                    "lastname": "Wiser",
+                    "email": "gwiser@stacksimplify.com",
+                    "role": "admin",
+                    "ssn": "ssn102",
+                    "orders": [
+                        {
+                            "orderId": 2004,
+                            "orderDescription": "order21"
+                        },
+                        {
+                            "orderId": 2005,
+                            "orderDescription": "order22"
+                        }
+                    ]
+                },
+                {
+                    "id": 103,
+                    "username": "dmark",
+                    "firstname": "David",
+                    "lastname": "Mark",
+                    "email": "dmark@stacksimplify.com",
+                    "role": "admin",
+                    "ssn": "ssn103",
+                    "orders": [
+                        {
+                            "orderId": 2006,
+                            "orderDescription": "order31"
+                        }
+                    ]
+                }
+            ]
+            ```                          
         - Test#3: getUserById
             - GET /users/101
+            -   Result
+            ```json
+            {
+            "id": 101,
+            "username": "kreddy",
+            "firstname": "Kalyan",
+            "lastname": "Reddy",
+            "email": "kreddy@stacksimplify.com",
+            "role": "admin",
+            "ssn": "ssn101",
+            "orders": [
+                {
+                    "orderId": 2001,
+                    "orderDescription": "order11"
+                },
+                {
+                    "orderId": 2002,
+                    "orderDescription": "order12"
+                },
+                {
+                    "orderId": 2003,
+                    "orderDescription": "order13"
+                }
+            ]
+            }
+            ```
+
+        -            
 -----------------------------------------------------------------------------
 
 ### Step 55. Step-05: Implement createOrder RESTful Service.md
 -----------------------------------------------------------------------------
-Step-05: Implement "createOrder" method in OrderController
+-   Step-05: Implement "createOrder" method in OrderController
     - Repository Layer
         - Create OrderRepository
     - Controller Layer: OrderController
         - Method: createOrder
-        - POST /users/{userid}/orders 
+        - POST /users/{userid}/orders         
+        
     - Test using Postman
         - Test#1: createOrder 
             - POST /users/101/orders  
+            -   Json
+            ```json
+            {
+            "orderDescription": "laptop"
+            }
+           
+            ```
+            -   Result
+            ```json
+            {
+                "orderId": 3,
+                "orderDescription": "laptop"
+            }
+            ```
         - Test#2: getAllOrders
-            - GET /users/101/orders
+            - GET /users/101/orders            
+            -   Result
+            ```json
+             [
+                {
+                    "orderId": 3,
+                    "orderDescription": "laptop"
+                },
+                {
+                    "orderId": 2001,
+                    "orderDescription": "order11"
+                },
+                {
+                    "orderId": 2002,
+                    "orderDescription": "order12"
+                },
+                {
+                    "orderId": 2003,
+                    "orderDescription": "order13"
+                }
+            ]
+
+            ```
         - Test#3: getAllUsers
             - GET /users
+            -   Result
+            ```json
+            [
+            {
+                "id": 1,
+                "username": "Chandra",
+                "firstname": "sdfB",
+                "lastname": "Reddy",
+                "email": "kreddy@stacksimplify.com",
+                "role": "admin",
+                "ssn": "ssn10as45d",
+                "orders": [
+                    {
+                        "orderId": 2,
+                        "orderDescription": "asdfas"
+                    }
+                ]
+            },
+            {
+                "id": 101,
+                "username": "kreddy",
+                "firstname": "Kalyan",
+                "lastname": "Reddy",
+                "email": "kreddy@stacksimplify.com",
+                "role": "admin",
+                "ssn": "ssn101",
+                "orders": [
+                    {
+                        "orderId": 2001,
+                        "orderDescription": "order11"
+                    },
+                    {
+                        "orderId": 2002,
+                        "orderDescription": "order12"
+                    },
+                    {
+                        "orderId": 2003,
+                        "orderDescription": "order13"
+                    }
+                ]
+            },
+            {
+                "id": 102,
+                "username": "gwiser",
+                "firstname": "Greg",
+                "lastname": "Wiser",
+                "email": "gwiser@stacksimplify.com",
+                "role": "admin",
+                "ssn": "ssn102",
+                "orders": [
+                    {
+                        "orderId": 2004,
+                        "orderDescription": "order21"
+                    },
+                    {
+                        "orderId": 2005,
+                        "orderDescription": "order22"
+                    }
+                ]
+            },
+            {
+                "id": 103,
+                "username": "dmark",
+                "firstname": "David",
+                "lastname": "Mark",
+                "email": "dmark@stacksimplify.com",
+                "role": "admin",
+                "ssn": "ssn103",
+                "orders": [
+                    {
+                        "orderId": 2006,
+                        "orderDescription": "order31"
+                    }
+                ]
+            }
+            ]
+            ```
         - Test#4: getUserById 
-            - GET /users/101            
+            - GET /users/101   
+            -   Result
+            ```json
+            {
+            "id": 101,
+            "username": "kreddy",
+            "firstname": "Kalyan",
+            "lastname": "Reddy",
+            "email": "kreddy@stacksimplify.com",
+            "role": "admin",
+            "ssn": "ssn101",
+            "orders": [
+                {
+                    "orderId": 3,
+                    "orderDescription": "laptop"
+                },
+                {
+                    "orderId": 2001,
+                    "orderDescription": "order11"
+                },
+                {
+                    "orderId": 2002,
+                    "orderDescription": "order12"
+                },
+                {
+                    "orderId": 2003,
+                    "orderDescription": "order13"
+                }
+            ]
+            }
+            ```         
 -----------------------------------------------------------------------------
 
 
 ### Step 56. Step-06: Implement getOrderByOrderId RESTful Service.md
-Step-06: Implement "getOrderByOrderId" method in OrderController
+-   Step-06: Implement "getOrderByOrderId" method in OrderController
     - Controller Layer: OrderController
         - Method: getOrderByOrderId
         - GET /users/{userid}/orders/{orderid}
+        
     - Test using Postman
         - Test#1: getOrderByOrderId
             - GET /users/{userid}/orders/{orderid}
------------------------------------------------------------------------------
-Step-07: GIT commit code, push to remote, merge to master and push to remote 
-git status
-git add .
-git commit -am "First Commit - OneToMany"
-git push
-git checkout master
-git merge 06-SpringBoot-JPA-OneToMany
-git branch -vva
+            -   Result
+            ```json
+            {
+                "orderId": 2001,
+                "orderDescription": "order11"
+            }
+            ```
+-----------------------------------------------------------
 -----------------------------------------------------------------------------
 ### Step 57. Step-07: GIT Commit, Push, Merge to Master and Push.md
+------------------
+-   Step-07: GIT commit code, push to remote, merge to master and push to remote 
+    git status
+    git add .
+    git commit -am "First Commit - OneToMany"
+    git push
+    git checkout master
+    git merge 06-SpringBoot-JPA-OneToMany
+    git branch -vva
