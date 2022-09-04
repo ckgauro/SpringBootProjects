@@ -28,7 +28,19 @@ Step-00: Introduction
         - Accept-Language: fr 
         - Accept-Language: us
         - Accept-Language: en 
-
+    -   Test POST MAN
+    -   GET http://localhost:8080/hello-int2
+        -   header [Accept-Language : fr]
+        -   Result
+        ```json
+        Bonjour le monde
+        ```
+    -   GET http://localhost:8080/hello-int2
+        -   header [Accept-Language : US]
+        -   Result
+        ```json
+        Hello World
+        ```        
 ### Step 70. Step-03: GIT Commit, Push, Merge to Master and Push.md
 
 -----------------------------------------------------------------------------
