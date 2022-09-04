@@ -1,3 +1,11 @@
+### Spring Boot HATEOAS
+-   HATEOAS is an extra level upon REST.
+-   It is used to present information about a REST API to a client without the need to bring up the API documentation.
+-   It includes links in a returned response and client can use those API links to further communicate with the server.
+-   Simplify the client by making the API discoverable.
+-   This reduces the likelihood of client breaking due to changes to the service.
+
+-   **spring-hateoas** provides two major wrapper classes. They are **EntityModel** and **CollectionModel**. Using these classes we can add the related links with few lines of code. Let’s see how I have done it.
 
 ### Step 58. Step-00: Introduction to Spring Boot - HATEOAS.md
 -----------------------------------------------------------------------------
