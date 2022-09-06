@@ -1,9 +1,9 @@
 ---------------------------------------------------------------------------
-Step-01: New GIT branch (usign IDE)
+- Step-01: New GIT branch (usign IDE)
     - git Branch name: 10-02-SpringBoot-DTOS-MapStruct
     - Create new local branch
 ---------------------------------------------------------------------------
-Step-02: Update pom.xml with necessary dependencies for MapStruct
+- Step-02: Update pom.xml with necessary dependencies for MapStruct
     - pom.xml
 **********************************
     - Change#1: Add Properties 
@@ -39,14 +39,14 @@ Step-02: Update pom.xml with necessary dependencies for MapStruct
             </plugin>
 **********************************                 
 ---------------------------------------------------------------------------
-Step-03: Create UserMsDTO class required for MapStruct Implementation.
+- Step-03: Create UserMsDTO class required for MapStruct Implementation.
     - DTO Layer
         - Create UserMsDto in dtos package 
         - Define fields that need to be exposed via UserMsDto
         - Generate No Argument and Field Constructors
         - Generate Getters & Setters
 ---------------------------------------------------------------------------
- Step-04: Create the MapStruct Mapper Interface
+ - Step-04: Create the MapStruct Mapper Interface
     - Mapper Layer
         - Create an interface "UserMapper" with methods for mapping between objects (User to UserMsDto).
         - Add a @Mapper annotation to the interface. 
@@ -61,7 +61,7 @@ Step-03: Create UserMsDTO class required for MapStruct Implementation.
                 - Input Object: List<User>
                 - Output Object: List<UserMsDto>
 ---------------------------------------------------------------------------
-Step-05: Create the REST services by calling methods defined in MapStruct Mapper. 
+- Step-05: Create the REST services by calling methods defined in MapStruct Mapper. 
     - Controller Layer
         - Create new Controller named UserMapStructController
         - Copy getUserById and getAllUsers methods from UserController.
@@ -72,5 +72,5 @@ Step-05: Create the REST services by calling methods defined in MapStruct Mapper
             - Implement this method to return DTO convereted by MapStruct
             - Test        
 ---------------------------------------------------------------------------
-Step-06: Commit & Push code via IDE
+- Step-06: Commit & Push code via IDE
 ---------------------------------------------------------------------------
