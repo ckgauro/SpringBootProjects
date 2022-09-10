@@ -1,11 +1,11 @@
 ---------------------------------------------------------------------------------------------
-Step-00: Introduction
+- Step-00: Introduction
 ---------------------------------------------------------------------------------------------
-Step-01: New GIT branch (usign IDE)
+- Step-01: New GIT branch (usign IDE)
     - git Branch name: 12-SpringBoot-Swagger-APIDocumentation
     - Create new local branch
 ---------------------------------------------------------------------------------------------
-Step-02: Add Springfox Dependencies to pom.xml and Restart Embedded Tomcat
+- Step-02: Add Springfox Dependencies to pom.xml and Restart Embedded Tomcat
 		<dependency>
     		<groupId>io.springfox</groupId>
     		<artifactId>springfox-swagger2</artifactId>
@@ -17,7 +17,7 @@ Step-02: Add Springfox Dependencies to pom.xml and Restart Embedded Tomcat
     		<version>2.9.2</version>
 		</dependency>	
 ---------------------------------------------------------------------------------------------
-Step-03: Create SwaggerConfig file
+- Step-03: Create SwaggerConfig file
     - Annotate it with @Configuration
     - Annotate it with @EnableSwagger2
     - Create a Docket bean and annotate with @Bean
@@ -26,18 +26,18 @@ Step-03: Create SwaggerConfig file
     - Swagger UI URL
         - http://localhost:8080/swagger-ui.html
 ---------------------------------------------------------------------------------------------
-Step-04: Adding API Info to modify header part of our documentation.
+- Step-04: Adding API Info to modify header part of our documentation.
     - Create a new class "ApiInfo"
     - Update the Docket bean with this ApiInfo. 
 ---------------------------------------------------------------------------------------------
-Step-05: Restrict scope of swagger document generation using API Basepackages & Paths 
+- Step-05: Restrict scope of swagger document generation using API Basepackages & Paths 
     - Update base package in RequestHandlerSelectors.basePackage
     - Update PathSelectors.ant("/users/**") to limit to specific paths. 
     - Verify in readable format in SWAGGER online editor https://editor.swagger.io/
     - Fix Optional<User> responses. 
     - Test using REST Client of SWAGGER
 ---------------------------------------------------------------------------------------------
-Step-06: Auto populate documentation for JSR-303 Validations 
+- Step-06: Auto populate documentation for JSR-303 Validations 
     - JSR-303 Spec: https://beanvalidation.org/
     - Add Dependency in pom.xml and restart Embedded tomcat
 <dependency>
@@ -48,7 +48,7 @@ Step-06: Auto populate documentation for JSR-303 Validations
     - Add "@Import(BeanValidatorPluginsConfiguration.class)" on top of  swagger configuration class
     - Verify Models in Swagger UI
 ---------------------------------------------------------------------------------------------
-Step-07: Adding Swagger Core Annotations to Model class
+- Step-07: Adding Swagger Core Annotations to Model class
     -  Core Annotations documentation 
         - https://github.com/swagger-api/swagger-core/wiki/Annotations
     - Core Annotations for Model class
@@ -61,7 +61,7 @@ Step-07: Adding Swagger Core Annotations to Model class
             - @ApiModelProperty(notes = "SSN of the User.", example = "SSN1010", required = true, position = 4)
     - Test
 ---------------------------------------------------------------------------------------------
-Step-08: Adding Swagger Core Annotations to Controller classes
+- Step-08: Adding Swagger Core Annotations to Controller classes
     - Controller Level
         - @Api(tags = "User Management RESTful Services", value = "UserController", description = "Controller for User Management Service")
     - Method Level
@@ -70,5 +70,5 @@ Step-08: Adding Swagger Core Annotations to Controller classes
         - @ApiParam("User information for a new user to be created.")
     - produces         
 ---------------------------------------------------------------------------------------------
-Step-09: Commit & Push code via IDE
+- Step-09: Commit & Push code via IDE
 ---------------------------------------------------------------------------------------------
