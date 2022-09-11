@@ -1,3 +1,12 @@
+## Spring Boot -Swagger Integration
+
+-   Documenting REST API is very **important** primarily from API consumers point of view
+-   API Documentation helps consumers to understand and implement their client applications without any **confusion** and also by avoiding **costly mistakes**.
+-   One of the most popular API documentation specification is **OpenAPI**, formerly known as **swagger**.
+-   Swagger allows us to describe API properties either using **JSON** or **YAML** metadata
+-   Swagger also provides a **Web UI** which transform the **JSON** metadata to a nice **HTML** documentation
+-   SwaggerUI can also be used as a **REST client**.
+-   Swagger integration with Spring Framework can be implemented using **SpringFox** dependencies,
  
 ### Step 92. Step-00: Introduction to Swagger.md
 ---------------------------------------------------------------------------------------------
@@ -14,14 +23,26 @@ Step-00: Introduction
 ---------------------------------------------------------------------------------------------
 -   Step-02: Add Springfox Dependencies to pom.xml and Restart Embedded Tomcat
 		<dependency>
-    		<groupId>io.springfox</groupId>
-    		<artifactId>springfox-swagger2</artifactId>
-    		<version>2.9.2</version>
-		</dependency>		
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>3.0.0</version>
+		</dependency>
 		<dependency>
-    		<groupId>io.springfox</groupId>
-   			 <artifactId>springfox-swagger-ui</artifactId>
-    		<version>2.9.2</version>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-bean-validators -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-bean-validators</artifactId>
+			<version>3.0.0</version>
 		</dependency>	
 
 - Step-03: Create SwaggerConfig file
